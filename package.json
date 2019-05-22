@@ -5,9 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon index.js",
-        "start:heroku": "nodemon index.js",
-        "postinstall": "npm install --save"
+        "start": "nodemon index.js"
     },
     "author": "Ngo Van Tuan",
     "license": "ISC",
@@ -18,5 +16,8 @@
         "express": "^4.17.0",
         "multer": "^1.4.1",
         "nodemon": "^1.19.0"
+    },
+    "engines": {
+        "node": "10.15.3"
     }
 }
